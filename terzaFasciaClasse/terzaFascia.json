@@ -1,0 +1,135 @@
+{
+  "titolo1": "L\\'assassinio del direttore",
+  "regole": [
+    "Questo è un gioco di classe",
+    "Per ogni domanda è presente solo una risposta corretta",
+    "Le domande hanno diversi livelli di difficoltà",
+    "Per rispondere ad alcune domande dovrai interagire con l\\'ambiente intorno a te",
+    "Le domande più difficili hanno un punteggio più alto",
+    "Alla fine del gioco, confronta il tuo punteggio con quelli degli altri gruppi",
+    "State attenti al tempo, che incide sul punteggio",
+    "E\\' obbligatorio imparare divertendosi!"
+  ],
+  "introduzione": "OH NOO!! <br> C\\'E\\' IL CORPO DEL DIRETTORE DEL MUSEO IN UNA POZZA DI SANGUE!!! <br> La segretaria ha riferito alla polizia che il diretore è stato nei seguenti posti prima di venire ucciso: <ol> <li> Alle 14:30 è stato nella sala dedicata alla Guerra delle Due Rose </li> <li> Alle 15:45 è stato nella sala dedicata alla Guerra Fredda </li> <li> Alle 16:10 è stao nella sala dedicata alla Prima Guerra Mondiale </li> <li> Alle 16:40 è stat nella sala dedicata alla Rivoluzione Francese </li></ol> Guradando attenetamente, si può vedere che il direttore stringe tra le mani un pezzo di carta. Cerca di completare la lettera per scoprire il colpevole.",
+  "introduzioneImmagine": "lettera1",
+  "narrazione": [
+    "Vai nella sala dedicata alla Guerra delle Due Rose e rispondi alle domande per ottenere un frammento della lettera.",
+    "Vai nella sala dedicata alle Guerre Mondiali e rispondi alle domande per ottenere un frammento della lettera.",
+    "Vai nella sala dedicata alla Rivoluzione Francese e rispondi alle domande per ottenere un frammento della lettera."
+  ],
+  "oggetto": ["York e Lancaster", "bombaAtomica", "guerra"],
+  "indizio": [
+    "<img src=\\'img/lettera2.png\\'>",
+    "<img src=\\'img/lettera3.png\\'>",
+    "<img src=\\'img/lettera4.png\\'>"
+  ],
+  "File": [
+    {
+      "tipo": 2,
+      "domanda": [
+        "Quale famiglia ha vinto la Guerra delle Due Rose?",
+        "In quali luoghi si è svolta la Guerra delle Due Rose?",
+        "Quali erano le famiglie coinvolte nella Guerra delle Due Rose?"
+      ],
+      "opzioni": [
+        ["Savoia", "Lancaster", "Beauchamp‎ ", "York"],
+        [
+          "Italia, Francia, Germania",
+          "Austria, Svizzera, Slovenia",
+          "Inghilterra, Galles, Calais",
+          "Estonia, Polonia, Irlanda"
+        ],
+        [
+          "Beauchamp‎ e Savoia",
+          "Savoia e Lancaster",
+          "York e Lancaster",
+          "Beauchamp‎ e York"
+        ]
+      ],
+      "risposteCorrette": [
+        "Lancaster",
+        "Inghilterra, Galles, Calais",
+        "York e Lancaster"
+      ],
+      "didascalia": [
+        "La prima creazione del casato inglese dei Lancaster (il cui stemma era una rosa rossa) fu con l\\'investitura a conte di Lancaster da parte di re Enrico III a favore del suo secondogenito Edmondo il Gobbo, nel 1267. Il titolo passò al nipote Enrico Plantageneto, che fu elevato a primo duca di Lancaster nel 1351",
+        "La Guerra delle Due Rose scoppiò a causa della successione al trono d\\'Inghilterra",
+        "La guerra delle due rose fu una sanguinosa lotta dinastica combattuta in Inghilterra tra il 1455 e il 1485 tra due diversi rami della casa regnante dei Plantageneti: i Lancaster e gli York. La guerra fu denominata così a seguito del romanzo \\'Anna di Geierstein\\' pubblicato da Walter Scott facendo riferimento agli stemmi delle due casate."
+      ],
+      "suggerimento": [
+        "E\\' una città del nord-ovest dell\\'Inghilterra",
+        "Nei luoghi coinvolti si parla inglese e francese",
+        "Le famiglie coinvolte sono inglesi"
+      ],
+      "immagine": ["re", "luogo", "York e Lancaster"]
+    },
+    {
+      "tipo": 3,
+      "domanda": [
+        "Metti in ordine cronologico questi eventi riguardanti la Prima Guerra Mondiale",
+        "Metti in ordine cronologico questi eventi riguardanti la Seconda Guerra Mondiale"
+      ],
+      "opzioni": [
+        [
+          "Austria_firma_armistizio_con_l\\'Italia",
+          "Assasinio_di_Federico_Ferdinando",
+          "Giappone_dichiara_guerra_alla_Germania",
+          "Austria_dichiara_guerra_alla_Serbia"
+        ],
+        [
+          "Bomba_atomica_su_Hiroshima",
+          "Germania_invade_Polonia",
+          "Firma_del_Patto_Tripartito",
+          "Italia_entra_in_guerra"
+        ]
+      ],
+      "risposteCorrette": [
+        "Assasinio di Federico Ferdinando - Austria dichiara guerra alla Serbia - Giappone dichiara guerra alla Germania - Austria firma armistizio con l\\'Italia - ",
+        "Germania invade Polonia - Italia entra in guerra - Firma del Patto Tripartito - Bomba atomica su Hiroshima - "
+      ],
+      "didascalia": [
+        "La Grande Guerra distrusse equilibri politici consolidati da decenni e ridisegnò i confini nazionali di Europa e Medio Oriente: quattro grandi imperi (tedesco, austro-ungarico, russo e ottomano) erano scomparsi lasciando al loro posto nazioni prostrate dalla guerra",
+        "La seconda guerra mondiale vide contrapporsi, tra il 1939 e il 1945, le cosiddette potenze dell\\'Asse e gli Alleati che, come già accaduto ai belligeranti della prima guerra mondiale, si combatterono su gran parte del pianeta"
+      ],
+      "suggerimento": [
+        "Cerca gli avvenimenti nella sala della Prima Guerra Mondiale",
+        "Cerca gli avvenimenti nella sala della Seconda Guerra Mondiale"
+      ]
+    },
+    {
+      "tipo": 4,
+      "domanda": [
+        "Metti in ordine cronologico questi eventi riguardanti la rivoluzione francese",
+        "Vai nella sala dedicata alle guerre e metti in ordine cronologico queste guerre"
+      ],
+      "opzioni": [
+        [
+          "Presa_della_Bastiglia",
+          "Luigi_XVI_Decapitato",
+          "Giuramento_della_Pallacorda",
+          "Fuga_da_Varennes"
+        ],
+        [
+          "Guerra_Civile_Albanese",
+          "Guerra_del_Vietnam",
+          "Guerra_del_Golfo",
+          "Prima_guerra_del_Congo"
+        ]
+      ],
+      "risposteCorrette": [
+        "Giuramento della Pallacorda - Presa della Bastiglia - Fuga da Varennes - Luigi XVI Decapitato - ",
+        "Guerra del Vietnam - Guerra del Golfo - Prima guerra del Congo - Guerra Civile Albanese - "
+      ],
+      "didascalia": [
+        "La Rivoluzione francese fu un periodo di sconvolgimento sociale, politico e culturale occorso in Francia tra il 1789 e il 1799, assunto dalla storiografia come lo spartiacque temporale tra l\\'età moderna e l\\'età contemporanea.",
+        "Guerra del Vietnam 1964-1975 <br> Prima Guerra del Golfo 1990-1991 <br> Prima guerra del Congo 1996-1997 <br> Guerra Civile Albanese 1997-1998"
+      ],
+      "suggerimento": [
+        "Cerca questi avvenimenti nella sala dedicata alla Rivoluzione Francese",
+        "Cerca questi avvenimenti in giro per il museo"
+      ]
+    }
+  ],
+  "Fine": "Mettendo insieme i vari frammenti che hai trovato, la lettera risultante è quella riportata di sotto. Il colpevole è il vicedirettore Bartolomeo Vespucci!!! <br> BRAVO HAI RISOLTO IL MISTERO!!!",
+  "ImmagineFine": "lettera"
+}

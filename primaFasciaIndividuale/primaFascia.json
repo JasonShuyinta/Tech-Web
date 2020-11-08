@@ -1,0 +1,124 @@
+{
+  "titolo1": "Il Mistero del Vaso Rotto",
+  "regole": [
+    "Questo è un gioco individuale",
+    "Per ogni domanda è presente solo una risposta corretta",
+    "Le domande hanno diversi livelli di difficoltà",
+    "Per rispondere ad alcune domande dovrai interagire con l\\' ambiente intorno a te",
+    "E  obbligatorio imparare divertendosi!"
+  ],
+  "introduzione": "OH NOO!! <br> Qualcuno ha rotto un preziosissimo vaso greco! <br> La tua missione è scoprire chi è stato! <br> Cerca degli indizi in giro per il museo per consegnare il colpevole nelle mani della giustizia! <br> Guarda! Ci sono degli oggetti vicino al vaso rotto. Potrebbero essere collegati al colpevole. Andiamo ad esaminarli da vicino!",
+  "narrazione": [
+    "E\\' stato trovato un cappello! E\\' molto particolare! Sembra tipico di un paese. Andiamo a cercare informazione nella Sala del Mondo.",
+    "Guarda c\\'è una moneta! Sopra c\\'è l\\'incisione della regina Elisabetta. Andiamo a scoprire in quale stato regna la famosa regina",
+    "Accanto alla scena del crimine, è stata trovata una cartolina molto rovinata! Vai nella Sala dei Monumenti e cerca di scoprire in che paese si trova il monumento raffigurato nella cartolina.",
+    "Guarda! c\\'è un puzzle di fianco al vaso, pare ci sia rappresentato un dipinto. Vai nella Sala dei Quadri e cerca di risolverlo. E vedi cosa scopri"
+  ],
+  "oggetto": ["irish", "sterlina", "cartolina", "MonnaLisa"],
+  "indizio": [
+    "Pare che il sospettato n.1 sia irlandese",
+    "Pare che il sospettato n.2 sia inglese",
+    "Pare che il sospettato n.3 sia francese",
+    "Un\\'altro indizio che porta al sospettato francese"
+  ],
+  "File": [
+    {
+      "tipo": 0,
+      "domanda": [
+        "Il cappello proviene dal paese mostrato qui. Secondo te qual è il nome di questo paese? ",
+        "In quale continente si trova questo paese?",
+        "In quale emisfero si trova questo paese?"
+      ],
+      "opzioni": [
+        ["Italia", "Australia", "Russia", "Irlanda"],
+        ["Asia", "Europa", "Oceania", "Africa", "America", "Antartide"],
+        ["Australe", "Boreale"]
+      ],
+      "risposteCorrette": ["Irlanda", "Europa", "Boreale"],
+      "didascalia": [
+        "La Repubblica di Irlanda occupa la maggior parte dell\\'isola d\\'Irlanda, al largo delle coste di Galles e Inghilterra. La sua capitale, Dublino, è la città natale di scrittori quali Oscar Wilde e della birra Guinness.",
+        "L\\'Europa è una regione geografica del mondo, comunemente considerata un continente in base a fattori storico-culturali e geopolitici, l\\'unico situato interamente nell\\'emisfero settentrionale. Costituisce l\\'estremità occidentale del supercontinente euroasiatico, o anche una delle tre parti del supercontinente Eurafrasia",
+        "L\\'emisfero boreale anche detto emisfero nord o emisfero settentrionale è la calotta semisferica del globo terrestre posta a nord dell\\'equatore, quindi con latitudine N. L\\'altra metà del globo è detta emisfero australe."
+      ],
+      "suggerimento": [
+        "E\\' la terra degli gnomi!",
+        "E\\' anche detto il Vecchio Continente",
+        "Al nord dell\\'Equatore"
+      ],
+      "immagine": ["Irlanda", "Irlanda", "Irlanda"]
+    },
+    {
+      "tipo": 6,
+      "domanda": [
+        "Vai nella Sala dei Reali e scopri la nazionalità della regina",
+        "Vai nella Sala del Mondo e scopri qual è il monumento più famoso del Regno Unito",
+        "Guarda il mappamondo presente al centro della sala e seleziona un elemento simbolo del Regno Unito"
+      ],
+      "opzioni": [
+        [
+          "bandieraInghilterra",
+          "bandieraIndia",
+          "bandieraBrasile",
+          "bandieraSvizzera"
+        ],
+        ["bigBen", "piramidi", "pisa", "colosseo"],
+        ["taxiAmericano", "bus", "ferrari", "tuktuk"]
+      ],
+      "risposteCorrette": ["bandieraInghilterra", "bigBen", "bus"],
+      "didascalia": [
+        "Il Regno Unito, ufficialmente Regno Unito di Gran Bretagna e Irlanda del Nord, è uno Stato insulare dell\\'Europa occidentale con una popolazione di circa 64,5 milioni di abitanti.",
+        "Big Ben è il soprannome della campana più grande della torre dell\\'orologio del palazzo di Westminster, a Londra. Per tradizione l\\'uso del nome si è esteso per sineddoche anche all\\'orologio e all\\'intera torre in stile neogotico, alta 96 m, la cui edificazione iniziò nel 1834 e si concluse nel 1858.",
+        "Tra i Paesi in cui questo tipo di autobus è storicamente impiegato per il trasporto pubblico urbano, vi è la Gran Bretagna e a Londra è decisamente una delle icone più rappresentative, nonché un mezzo largamente utilizzato"
+      ],
+      "suggerimento": [
+        "E\\' il paese in cui si usa la sterlina",
+        "E\\' la torre con l\\'orologio più famoso del mondo",
+        "E\\' in grado di trasportare le persone su due piani"
+      ]
+    },
+    {
+      "tipo": 0,
+      "domanda": [
+        "Sei nella Sala dei Monumenti. Trova il monumento presente nella cartolina. In quale città si trova questo monumento? ",
+        "In quale paese si trova il monumento?",
+        "In quale continente si trova questo paese?"
+      ],
+      "opzioni": [
+        ["Roma", "Sydney", "Mosca", "Parigi"],
+        ["Marocco", "Brasile", "Germania", "Francia"],
+        ["Asia", "Europa", "Oceania", "Africa", "America", "Antartide"]
+      ],
+      "risposteCorrette": ["Parigi", "Francia", "Europa"],
+      "didascalia": [
+        "La città si trova su un\\'ansa della Senna, posizione molto favorevole poiché fondamentale snodo di trasporti e traffici del continente europeo",
+        "La Francia è uno Stato principalmente situato nell\\'Europa occidentale, ma che possiede ugualmente territori disseminati su più oceani e altri continenti. Parigi è la capitale, la lingua ufficiale è il francese.",
+        "L\\'Europa comprende una parte continentale ed una parte peninsulare, separate dall\\'istmo ponto-baltico"
+      ],
+      "suggerimento": [
+        "E\\' la città dove è ambientato il film \\'Ratatouille\\'",
+        "La bandiera è formata da blu, bianco e rosso",
+        "E\\' il continente più vecchio"
+      ],
+      "immagine": ["cartolina", "cartolina", "cartolina"]
+    },
+    {
+      "tipo": 7,
+      "domanda": [
+        "Questo è un famoso dipinto chiamato Monna Lisa. Vai nella Sala del Mondo e cerca il dipinto per metterlo in ordine. Una volta trovato il dipinto, tocca due caselle per scambiarle di posizione. Infine cerca in quale paese si trova"
+      ],
+      "didascalia": [
+        "La Gioconda, nota anche come Monna Lisa, è un dipinto a olio su tavola di legno di pioppo realizzato da Leonardo da Vinci, databile al 1503-1504 circa e conservato nel Museo del Louvre di Parigi."
+      ],
+      "immagine": [
+        "monnaLisa1",
+        "monnaLisa2",
+        "monnaLisa3",
+        "monnaLisa4",
+        "monnaLisa5",
+        "monnaLisa6"
+      ]
+    }
+  ],
+  "Fine": "Dopo varie ricerche e aver giro vagato per il museo abbiamo scovato 4 oggetti che portano a 3 sospettati. <br> Questo significa che due oggetti portano alla stessa persona! <br> I sospettati sono: <br> <ol><li>il cappello trovato riporta a un irlandere </li> <li>la moneta trovata riporta a una inglese </li> <li>la cartolina e il puzzle riportano a un fracese.</li></ol> Con queste prove possiamo affermare che il colpevole e\\' il francese! <br> MISTERO RISOLTO!!! <br> BRAVO!!! <br>",
+  "ImmagineFine": "pikachu"
+}
