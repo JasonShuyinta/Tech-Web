@@ -55,7 +55,7 @@
         "Questo dipinto si chiama \\'Ultima Cena\\' ed è stato fatto da Leonardo da Vinci. Quanti apostoli sono presenti nel quadro? (scrivilo in numeri)",
         "Questa scultura è il David di Michelangelo Buonarroti. In quale città italiana è conservata?"
       ],
-      "risposteCorrette": ["botticelli", "12", "firenze"],
+      "risposteCorrette": ["Botticelli", "12", "firenze"],
       "didascalia": [
         "La Primavera è un dipinto a tempera su tavola di Sandro Botticelli, databile tra il 1478 e il 1482 circa. Realizzata per la villa medicea di Castello",
         "E un dipinto parietale ottenuto con una tecnica mista a secco su intonaco (460×880 cm), databile al 1494-1498 e realizzato su commissione di Ludovico il Moro nel refettorio del convento adiacente al santuario di Santa Maria delle Grazie a Milano.",
